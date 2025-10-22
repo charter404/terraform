@@ -1,0 +1,2 @@
+ # Definition of terraform.tfstate
+It contains all the resource information created on the AWS in json format, like which instance type, ami id used and other related information
