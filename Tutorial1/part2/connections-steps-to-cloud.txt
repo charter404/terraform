@@ -1,0 +1,40 @@
+How terraform connects with Cloud Services like AWS and GCP
+
+# How Terraform connects with AWS
+Steps
+1. Install terraform
+2. Set up AWS credentials
+	- Use AWS CLI using command
+	  aws configure
+3. Enter your following details
+	- AWS Access key ID
+	- AWS secret Access Key
+	- Default Region
+	- Output Format
+4. OR use environment variables
+	export AWS_ACCESS_KEY_ID = "your_access_key"
+	export AWS_SECRET_ACCESS_KEY = "your_secret_key"
+	export AWS_DEFAULT_REGIN = "us-east-1"
+
+# How to get Access Key via AWS Management Console
+Steps
+1. Login to AWS console
+2. Open IAM (Identity and Access Management)
+3. Go to users -> then select your IAM users
+4. Go to security credentials tab
+5. Create a access key
+6. Save your keys
+	- You will see the
+		* Access Key ID
+		* Secret key ID
+
+##########################################################
+#How terraform connects with GCP
+Steps:
+1. Install terraform
+2. Set up GCP credentials
+	- Create a service account in your GCP project
+	- Give roles (like editor or specific permission
+	- Download json key file for that service account
+3. Set Environment variable
+	export GOOGLE_APPLICATION_CREDENTIALS = "/path/to/your_key_file.json
