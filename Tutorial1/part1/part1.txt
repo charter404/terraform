@@ -1,0 +1,7 @@
+Installing terraform using tfenv 
+What is tfenv?
+It is a command line utility designed to manage multiple versions of terraform on a single system
+
+You can install and download from git hub repo URL : "https://github.com/tfutils/tfenv.git"
+
+and follow the step to install the tfenv
